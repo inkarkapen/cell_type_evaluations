@@ -2,7 +2,7 @@
 
 <img src="./markdown_images/cell_tpes_logo.png" width="400">
 
-The latest Allen Institute Basal Ganglia Taxonomy datasets released in Q2 2025 are used in this tutorial and are available [publicly for download](https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy). 
+*The latest Allen Institute Basal Ganglia Taxonomy datasets released in Q2 2025 are used in this tutorial and are available [publicly for download](https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy).*
 
 ## Overview
 Allen Institute Taxonomies are defined by clusters of cells that meet criteria establishing a level of distinctness in the cells' transcriptomic signature. Application of a given taxonomy typically involves annotation of new cells against the cell type hierarchy, starting from clusters and moving up into broader cell categories. However, not all clusters are equal in how well they can be annotated onto new data for various reasons, such as cutting gradients or lacking distinct markers.
