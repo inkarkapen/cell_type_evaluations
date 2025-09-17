@@ -23,8 +23,8 @@ This tutorial uses two mapping algorithms:
 
 Algorithm descriptions are available at: https://portal.brain-map.org/atlases-and-data/bkp/mapmycells/algorithms.
 
-# Tutotial 
-The code for the tutorial is in this repository tutorial.ipynb. The code takes about 15-20mins to run using the subsampled Marmoset Taxonomy. It will be faster or take longer depending on the dataset size. 
+# Tutorial 
+The code for the tutorial is in this repository named "tutorial.ipynb". The code takes about 15-20mins to run using the subsampled Marmoset Taxonomy. It will be faster or take longer depending on the dataset size. 
 
 # Results
 Below are the results of the analysis to evaluate the predictions of correlation and hierarchical mappings in determining cluster labels in a self-projection evaluation:
