@@ -1,6 +1,6 @@
 # Cell Type Mapping Evaluation on Primate Basal Ganglia Taxonomies
 
-<img src="./markdown_images/cell_tpes_logo.png" width="400">
+<img src="./markdown_images/Cell Types Logo_1.6.25.png" width="400">
 
 *The latest Allen Institute Basal Ganglia Taxonomy datasets released in Q2 2025 are used in this tutorial and are available [publicly for download](https://alleninstitute.github.io/HMBA_BasalGanglia_Consensus_Taxonomy).*
 
