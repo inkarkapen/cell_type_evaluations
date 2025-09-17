@@ -8,6 +8,8 @@ echo "FOLD: $FOLD"
 echo "HIERARCHY: $HIERARCHY"
 echo "WORKING_DIR: $CURRENT_DIR"
 
+exec > MapMyCells_Output_${FOLD}.txt 2>&1
+
 python -m cell_type_mapper.cli.precompute_stats_scrattch \
 --h5ad_path "${CURRENT_DIR}/folds/fold_${FOLD}/train.h5ad" \
 --hierarchy "$HIERARCHY" \

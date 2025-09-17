@@ -1,4 +1,4 @@
-# Cell Type Mapping Evaluation on Allen Institute Taxonomies
+# Cell Type Mapping Evaluation on Primate Basal Ganglia Taxonomies
 
 <img src="./markdown_images/cell_tpes_logo.png" width="400">
 
@@ -17,12 +17,14 @@ This tutorial evaluates the Marmoset Basal Ganglia (et al. 2025) using Correlati
 The marmoset taxonomy was initially built using the Basal Ganglia (BG) area single-nucleus dataset. In building the taxonomy, binary marker genes were selected based on their gene expression from the single-cell transcriptome. Subsequently, the dataset was mapped to itself, termed self-projection, for evaluating the ideal performance of correlation and hierarchical mapping algorithms.
 
 # Mapping Algorithms
-
 This tutorial uses two mapping algorithms:
 1. CORRELATION MAPPING: one-step nearest cluster centroid mapping based on correlation
 2. HIERARCHICAL CORRELATION MAPPING: hierarchical nearest cluster centroid mapping based on correlation
 
 Algorithm descriptions are available at: https://portal.brain-map.org/atlases-and-data/bkp/mapmycells/algorithms.
+
+# Tutotial 
+The code for the tutorial is in this repository tutorial.ipynb. The code takes about 15-20mins to run using the subsampled Marmoset Taxonomy. It will be faster or take longer depending on the dataset size. 
 
 # Results
 Below are the results of the analysis to evaluate the predictions of correlation and hierarchical mappings in determining cluster labels in a self-projection evaluation:
